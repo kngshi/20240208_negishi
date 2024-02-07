@@ -1,0 +1,73 @@
+.admin-title {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.admin-title__heading {
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+}
+
+.form__group {
+    margin-bottom: 5px;
+}
+
+.form__group-title {
+    text-align: left;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.search__button{
+    margin: 50px 30px;
+
+}
+
+.admin-table {
+    border: 1px solid #ddd;
+}
+
+.admin-table__inner {
+    width: 100%;
+    justify-content: center;
+}
+
+.admin-table__header {
+    padding: 15px;
+    width: 10%;
+    border-bottom: 1px solid #ddd;
+    background-color: #8d6449;
+    color: #fff;
+    font-weight: bold;
+}
+
+.admin-table__item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.admin-button__detail {
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #8d6449;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+

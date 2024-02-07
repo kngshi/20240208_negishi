@@ -1,0 +1,67 @@
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+        line-height: 0px;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+}
+
+.modal__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 60%;
+    
+}
+
+
+.modal-table  {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.modal-table__inner {
+    width: 60%;
+}
+
+.modal-table__header {
+    padding: 15px 20px;
+    width: 25%;
+    color: #8d6449;
+    text-align: left;
+
+}
+
+.modal-table__text {
+    padding: 15px;
+    width: 50%;
+    color: #8d6449;
+}
+
+
+.modal__button {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.modal__button-submit {
+    padding: 10px;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+        left: 35%;
+}
+
+/* 削除ボタンはcenterに配置する方法が見つからず。 一旦relativeで配置*/
